@@ -13,7 +13,7 @@ public class RandomEventManager : MonoBehaviour
 
     private void Start()
     {
-        kLineManager = FindObjectOfType<KLineManager>();
+        kLineManager = FindFirstObjectByType<KLineManager>();
         InitializeEvents();
     }
 

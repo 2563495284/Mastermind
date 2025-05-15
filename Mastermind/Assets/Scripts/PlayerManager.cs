@@ -15,7 +15,7 @@ public class PlayerManager : MonoBehaviour
 
     private void Start()
     {
-        kLineManager = FindObjectOfType<KLineManager>();
+        kLineManager = FindFirstObjectByType<KLineManager>();
         currentMoney = initialMoney;
         InitializeDeck();
     }

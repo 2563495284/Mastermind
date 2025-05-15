@@ -19,7 +19,7 @@ public class NPCManager : MonoBehaviour
 
     private void Start()
     {
-        kLineManager = FindObjectOfType<KLineManager>();
+        kLineManager = FindFirstObjectByType<KLineManager>();
         InitializeDecks();
     }
 
